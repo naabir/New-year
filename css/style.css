@@ -139,3 +139,131 @@ body{
     font-family: "Inter", sans-serif;
     background-color: aqua;
 }
+
+/* ----- mid night end here -- */
+
+.join-party{
+    max-width: 1320px;
+    min-height: 482px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+
+.join-party-content h3{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: rgb(7, 2, 17);
+}
+.join-party-content span{
+    color: rgb(255, 0, 0);
+}
+.join-party-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.party-btn{
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    margin-top: 64px;
+    cursor: pointer;
+}
+
+/* ------ new offer start ------- */
+
+.new-offer{
+    max-width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.new-offer-items{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.new-offer-content{
+   width: 33%; 
+   height: 100%;
+   /* border: 2px solid black; */
+}
+
+.new-offer-img{
+    width: 33%;
+    border: 10px solid red;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.new-offer-img img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.new-year-part{
+    width: 33%;
+    margin-left: 20px;
+}
+
+.new-offer-content h2{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 104px 0 16px 0;
+}
+.new-offer-content h3{
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 22px;
+}
+
+.new-offer-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 104px;
+}
+
+.new-year-part h4{
+    color: rgb(255, 0, 0);
+    margin-top: 112px;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.new-year-part p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 43px;
+}
+
+.new-year-part-img{
+    width: 140px;
+    height: 140px;
+    
+    
+}
