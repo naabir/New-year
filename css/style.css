@@ -21,7 +21,7 @@ body{
     margin: 0 auto;
     margin-top: 20px;
     /* border: 2px solid red; */
-    background-image: url("/images/Banner-\ Image.png");
+    background-image: url("/images/banner-img.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,4 +89,53 @@ body{
 .new-year-img img{
     width: 100%;
     height: 100%;
+}
+
+/* -------- 65% end here ----- */
+
+.mid-night-container{
+    max-width:1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 120px;
+    /* border: 2px solid red; */
+    background-image: url("/images/Vectorrr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.mid-night-content{
+    font-family: "Merriweather", serif;
+    padding: 126px 552px 300px 126px;
+    
+}
+.mid-night-content h1{
+    font-size: 64px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    
+}
+
+.mid-night-content p{
+    color:rgba(255, 255, 255, 0.607) ;   
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 48px;
+
+}
+.btn{
+    margin-left: 10px;
+}
+.btn button{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    font-family: "Inter", sans-serif;
+    background-color: aqua;
 }
